@@ -1,0 +1,142 @@
+<resources>
+    <!--  General  -->
+    <string name="app_name">Mood Journal</string>
+    <string name="welcome">Welcome</string>
+    <string name="biometric_title">Login</string>
+    <string name="biometric_subtitle">Login using Biometric Credential</string>
+    <string name="biometric_negative_btn_text">Use PIN Instead</string>
+
+    <!-- Introduction Page -->
+    <!-- Slide 1 -->
+    <string name="intro_slide1_title">Welcome to Mood Journal</string>
+    <string name="intro_slide1_desc">Record your Daily Emotions &amp; Analyze Easier</string>
+    <!-- Slide 2 -->
+    <string name="intro_slide2_title">Record more than just emotion</string>
+    <string name="intro_slide2_desc">Record a short context along with the emotion</string>
+
+    <!--  Welcome/Landing Page  -->
+    <string name="welcome_main_text">Welcome to Mood Journal</string>
+    <string name="welcome_secondary_text">Lets get started with a few details</string>
+    <string name="name_placeholder">Enter your Name</string>
+    <string name="pin_placeholder">Enter a PIN</string>
+    <string name="confirm_pin_placeholder">Re-Enter your PIN</string>
+    <string name="dark_mode_pref">Do you Prefer Dark Mode?</string>
+    <string name="dark_mode_switch_off">Light</string>
+    <string name="dark_mode_switch_on">Dark</string>
+
+
+    <string name="title_activity_mood_selector">MoodSelectorActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--  Navigation Panel  -->
+    <string name="menu_new_entry">New Entry</string>
+    <string name="menu_analytics">Dashboard</string>
+    <string name="menu_diary">Diary</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <!--  New Entry Page  -->
+    <string name="msel_primary_text">So tell me all about it...</string>
+    <string name="diary_placeholder">So tell me more about your day (Optional)</string>
+    <string name="emotion_label">Please Select your Primary Emotion</string>
+    <string name="dateLabel">Date of Entry</string>
+
+    <!--  Emotion Icons  -->
+    <string name="emotion_happy">Happy</string>
+    <string name="emotion_delight">Delight</string>
+    <string name="emotion_excite">Excite</string>
+    <string name="emotion_sad">Sad</string>
+    <string name="emotion_awful">Awful</string>
+    <string name="emotion_exhaust">Exhaust</string>
+    <string name="emotion_anger">Anger</string>
+    <string name="emotion_outrage">Outrage</string>
+    <string name="emotion_scared">Scared</string>
+
+    <!--  Diary Page  -->
+    <string name="no_file_found">No Files Found.</string>
+
+    <!--  Analytics Page  -->
+    <string name="analytic_greeting_prefix">Hi</string>
+    <string name="negative_statement">It Seems like you are going through a Tough Time.\nIt would be a good idea to reflect and improve on your past entries.</string>
+    <string name="positive_statement">Seems like all is good. Kudos!\nKeep up with the good job!</string>
+    <string name="neutral_statement">It all looks Normal.\nIt wouldn\'t be a bad idea to bring some Positivity in your life.</string>
+    <string name="overall_analytics_label">Overall Analytics</string>
+    <string name="weekly_analytics_label">Weekly Analytics</string>
+    <string name="no_overall_analytics">No Analytics Available to Show</string>
+    <string name="no_weekly_analytics">No Weekly Stats Available to Show</string>
+
+    <!--  Settings Page  -->
+    <string name="pref_category_theme">Theme</string>
+    <string name="pref_category_account">Account</string>
+    <string name="pref_category_general">General</string>
+    <string name="pref_theme_dark">Enable Dark Theme</string>
+    <string name="pref_account_name">Change User Name</string>
+    <string name="pref_account_name_summary">Change the Name the User is Recognized by.</string>
+    <string name="pref_account_pin">Change Security PIN</string>
+    <string name="pref_account_pin_summary">Change the Security PIN.</string>
+    <string name="pref_contact_dev">Contact Developer</string>
+    <string name="pref_contact_dev_summary">Report any technical issues or suggest new features</string>
+    <string name="pref_privacy_policy">Privacy Policy</string>
+    <string name="pref_privacy_policy_summary">Application\'s Privacy Policy</string>
+    <string name="pref_rate_playstore">Rate on PlayStore</string>
+    <string name="pref_rate_playstore_summary">Please give the App a good rating if you like it.</string>
+    <string name="pref_contact_dev_uri">mailto:test@example.com</string>
+    <string name="pref_app_guide">Guide</string>
+
+    <!--  Data Alter Page  -->
+    <string name="data_change_title">Please provide the following Details.</string>
+
+    <!--  Contact Page  -->
+    <string name="contact_title">Contact the Developers</string>
+    <string name="contact_content">
+        Vestibulum vestibulum non leo in iaculis. Praesent egestas erat non tellus vestibulum, imperdiet commodo enim molestie.
+        Aliquam erat volutpat. Donec posuere, lectus quis mollis malesuada, ipsum purus euismod quam, eget convallis arcu velit quis urna. Integer faucibus eu purus vel auctor. Phasellus vel consectetur nunc. Integer id lobortis enim. Maecenas gravida blandit ex sit amet pharetra. Donec urna augue, pulvinar tempor quam non, euismod posuere diam. Aenean rutrum efficitur augue, nec iaculis augue dictum posuere.
+    </string>
+
+    <!--  Privacy Policy  -->
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_content">
+        Vestibulum vestibulum non leo in iaculis. Praesent egestas erat non tellus vestibulum, imperdiet commodo enim molestie.
+        Aliquam erat volutpat. Donec posuere, lectus quis mollis malesuada, ipsum purus euismod quam, eget convallis arcu velit quis urna. Integer faucibus eu purus vel auctor. Phasellus vel consectetur nunc. Integer id lobortis enim. Maecenas gravida blandit ex sit amet pharetra. Donec urna augue, pulvinar tempor quam non, euismod posuere diam. Aenean rutrum efficitur augue, nec iaculis augue dictum posuere.
+    </string>
+
+    <!--  User Notification  -->
+    <string name="notify_name_empty">Please provide your Name</string>
+    <string name="notify_pin_empty">Please enter a Security PIN</string>
+    <string name="notify_cpin_empty">Please re-enter your Security PIN</string>
+    <string name="notify_unequal_pin">Please re-enter the same Security PIN</string>
+    <string name="notify_short_pin">PIN Length must be 4.</string>
+    <string name="notify_auth_fail">Authentication Failed: Try Again</string>
+    <string name="notify_pin_change">Security PIN has been Changed</string>
+    <string name="notify_name_change">User\'s Name has been Changed</string>
+    <string name="notify_name_exists">Name already Exists</string>
+    <string name="notify_pin_exists">PIN already Exists</string>
+    <string name="notify_diary_entry_success">Entry added to Journal</string>
+    <string name="notify_diary_entry_failure">Entry has not been Saved</string>
+
+
+    <!--  User Preferences  -->
+    <string name="user_pref_file_name">userdata</string>
+    <string name="user_pref_name_key">user_name</string>
+    <string name="user_pref_pin_key">sec_pin</string>
+
+    <!--  Application Intro/Tutorial  -->
+    <string name="guide_text">
+        Mood Journal is an app designed to help users self-reflect on their daily emotions.
+        The apt way to use this app is to enter the emotions that can cause your mental health to degrade along with the context for the respective emotions. If the mood you are feeling does not exist, choose the closest match.
+    </string>
+    <string name="guide_emotion_title">Emotion Guide</string>
+
+    <!--  Debug  -->
+    <string name="debug_key">MoodDiary Debug</string>
+
+    <!--  File Names  -->
+    <string name="journal_page_file_prefix">journal_page_</string>
+    <string name="analytics_file_name">analytics</string>
+</resources>

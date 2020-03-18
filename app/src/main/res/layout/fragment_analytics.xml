@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_no_ovstats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:gravity="center"
+                android:text="@string/no_overall_analytics"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/analytic_greeting"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Greeting TextView"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/analytic_status"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Status TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/pieChartTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Overall Analysis"
+                android:textSize="18dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="311dp"
+                android:padding="5dp">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="301dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/barChartTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Weekly Analysis"
+                android:textSize="18dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:padding="5dp">
+
+                <com.github.mikephil.charting.charts.HorizontalBarChart
+                    android:id="@+id/barchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp" />
+
+            </FrameLayout>
+
+<!--            <TextView-->
+<!--                android:id="@+id/lineChartTitle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Monthly Trend"-->
+<!--                android:textSize="18dp" />-->
+
+<!--            <FrameLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="268dp"-->
+<!--                android:padding="5dp">-->
+
+<!--                <com.github.mikephil.charting.charts.LineChart-->
+<!--                    android:id="@+id/linechart"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="260dp" />-->
+
+<!--            </FrameLayout>-->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

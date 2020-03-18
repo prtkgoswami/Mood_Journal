@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DD5E4985</color>
+    <color name="colorPrimaryDark">#5E4985</color>
+    <color name="colorAccent">#5E4985</color>
+
+    <color name="appbarText">#5E4985</color>
+    <color name="colorTextPrimary">#5E4985</color>
+
+    <color name="textColorPrimary">#5E4985</color>
+    <color name="btnColorHighlighr">#BDA9E4</color>
+
+    <color name="colorError">#df6a6a</color>
+
+    <!--  Emotion Colors  -->
+    <color name="colorHappy">#F4F440</color>
+    <color name="colorDelight">#ffcccb</color>
+    <color name="colorExcite">#9584AA</color>
+    <color name="colorSad">#7189BF</color>
+    <color name="colorAwful">#BE8ABF</color>
+    <color name="colorExhaust">#87ceeb</color>
+    <color name="colorAnger">#ea8a8a</color>
+    <color name="colorOutrage">#df6a6a </color>
+    <color name="colorScared">#ffc0cb</color>
+
+    <color name="colorSlateGrey">#2d2d2d</color>
+    <color name="offwhite">#BBffffff</color>
+</resources>
